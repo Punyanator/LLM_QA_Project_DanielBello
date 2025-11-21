@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LLM Q&A (Gemini)</title>
+</head>
+<body>
+  <h1>Ask me anything (Gemini)</h1>
+  <form method="POST">
+    <input type="text" name="question" placeholder="Type your question…"/>
+    <button type="submit">Ask</button>
+  </form>
+
+  {% if processed %}
+    <p><strong>Processed:</strong> {{ processed }}</p>
+  {% endif %}
+
+  {% if answer %}
+    <p><strong>Answer:</strong> {{ answer }}</p>
+  {% endif %}
+
+</body>
+</html>
