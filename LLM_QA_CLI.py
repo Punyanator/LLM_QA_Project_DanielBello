@@ -8,7 +8,7 @@ def preprocess(text):
     return text
 
 # Use the Gemini API key directly
-client = genai.Client(api_key="AIzaSyDUYUH6-X6Rrv3RkEkY6GYgldBOXilyzMY")
+
 
 def call_gemini(prompt, model="gemini-2.5-flash"):
     resp = client.models.generate_content(model=model, contents=prompt)

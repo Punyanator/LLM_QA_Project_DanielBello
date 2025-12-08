@@ -4,6 +4,8 @@ from google import genai
 import os
 app = Flask(__name__)
 
+import os
+api_key = os.environ["AI_API_KEY"]
 
 # Preprocess function
 def preprocess(text):
