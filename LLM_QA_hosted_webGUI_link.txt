@@ -1,4 +1,3 @@
 Name: Daniel Bello
-Matric number: 23CG034050
 Live URL:  Punyanator.pythonanywhere.com
 GitHub repository: https://github.com/Punyanator/LLM_QA_Project_DanielBello_23CG034050.git

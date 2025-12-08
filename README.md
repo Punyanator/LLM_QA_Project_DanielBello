@@ -1,4 +1,4 @@
-# LLM_QA_Project_DanielBello_23CG034050
+# LLM_QA_Project_DanielBello
 
 ## Overview
 Simple Q&A system that calls an LLM (OpenAI) with a CLI and Flask web GUI.
