@@ -1,4 +1,7 @@
 # LLM_QA_Project_DanielBello
+Live Site-Link:https://llm-qa-project-danielbello.onrender.com
+GitHub Link:https://github.com/Punyanator/LLM_QA_Project_DanielBello.git
+
 
 ## Overview
 Simple Q&A system that calls an LLM (OpenAI) with a CLI and Flask web GUI.
@@ -18,3 +21,5 @@ Simple Q&A system that calls an LLM (OpenAI) with a CLI and Flask web GUI.
 - templates/index.html
 - static/style.css (optional)
 - LLM_QA_hosted_webGUI_link.txt
+
+

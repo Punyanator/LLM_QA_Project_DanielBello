@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     align-items: center;
   
-
+}
 form{
    
     width:60%;
@@ -72,5 +72,3 @@ button{
 #question{
     margin-bottom: 4rem;
 }
-
-
