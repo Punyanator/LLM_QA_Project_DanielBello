@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+.nunito-bold{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style:normal;
+}
+.nunito-italic{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style:italic;
+}
+body{
+    padding-top: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+form{
+   
+    width:60%;
+    display:flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+form > *{
+    
+    border:none;
+    border:1px solid black;
+    
+}
+input{
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    
+}
+button{
+    background-color: #6552D0 ;
+    border-radius:50%;
+    border:none;
+    padding:0.6rem;
+}
+@keyframes MyAnimation{
+    from{opacity:0;top:30px;}
+    to{opacity: 1;top:0px;}
+}
+#answerbox{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:2px solid grey;
+    border-radius: 10px;
+    width:80%;
+    padding:1rem;
+    font-size: 1.2rem;
+    animation-name: MyAnimation;
+    animation-duration: 2s;
+    position: relative;
+
+}
+#question{
+    margin-bottom: 4rem;
+}
+
+

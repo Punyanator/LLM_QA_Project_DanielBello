@@ -8,8 +8,9 @@ Simple Q&A system that calls an LLM (OpenAI) with a CLI and Flask web GUI.
 2. source venv/bin/activate
 3. pip install -r requirements.txt
 4. export OPENAI_API_KEY="sk-..."
-5. python app.py
-6. Visit http://127.0.0.1:5000
+5. python app.py for Web App
+6. python LLM_QA_CLI.py for CLI
+7. Visit http://127.0.0.1:5000
 
 ## Files
 - LLM_QA_CLI.py   # CLI
