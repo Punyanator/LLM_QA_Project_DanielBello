@@ -21,6 +21,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    
   
 }
 form{
@@ -50,6 +51,12 @@ button{
     border-radius:50%;
     border:none;
     padding:0.6rem;
+}
+button:hover{
+    background-color: #5242a9;
+}
+button:active{
+    background-color: #181335;
 }
 @keyframes MyAnimation{
     from{opacity:0;top:30px;}

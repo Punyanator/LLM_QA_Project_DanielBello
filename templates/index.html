@@ -11,19 +11,23 @@
 <body>
   <h1 class="nunito-bold">Ask me anything (Gemini)</h1>
   <form method="POST">
-    <input class="nunito-italic" type="text" name="question" placeholder="Type your question…"/>
-    <button type="submit"><img src="static/enter-outline-svgrepo-com.svg" alt="picture" /></button>
+    <input class="nunito-italic" value="{{ processed or '' }}"   type="text" name="question" placeholder="Type your question…"/>
+    <button type="submit">
+   <img src="{{ url_for('static', filename='enter-outline-svgrepo-com.svg') }}"
+         alt="picture">
+    </button>
   </form>
-
+  {% if processed or answer %}
+   <div id="answerbox">
   {% if processed %}
-  <div id="answerbox">
+ 
     <p id="question"><strong>Processed:</strong> {{ processed }}</p>
   {% endif %}
 
   {% if answer %}
     <p><strong>Answer:</strong> {{ answer }}</p>
+    {% endif %}
     </div>
-  {% endif %}
-
+    {% endif %}
 </body>
 </html>
